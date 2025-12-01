@@ -1,0 +1,16 @@
+import hashlib
+import logging
+import psutil
+import threading
+import shutil
+import tkinter as tk
+from tkinter import messagebox, filedialog, scrolledtext
+from cryptography.fernet import Fernet
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import ttkbootstrap as ttk
+from PIL import Image, ImageTk  # Added for GIF animation
+import winsound
+import pickle
+import numpy as np
+import pygame
